@@ -64,11 +64,11 @@ npm install
 ### Lancer en mode développement
 npm run dev
 
-🤝 # Contribuer
+## 🤝 Contribuer
 
 Nous sommes ouverts aux contributions ! Si vous souhaitez améliorer la boutique, n'hésitez pas à proposer une issue ou une pull request.
 
-📩 # Contact
+## 📩 Contact
 
 Pour toute question, contactez-nous à contact@boutique-cosmetiques-bio.com ou via nos réseaux sociaux.
 

@@ -35,7 +35,7 @@
       }
     </style>
   </head>
-  <body class="bg-[#F8F8F8] text-gray-900">
+  <body class="bg-[#F8F8F8] text-gray-900 min-h-screen flex flex-col">
     <!-- Header -->
     <header
       class="bg-[#8DAA91] p-4 text-white flex justify-between items-center"
@@ -80,82 +80,83 @@
     </header>
 
     <!-- Carrousel Hauteur Réduite -->
-    <!-- Carrousel Hauteur Réduite -->
-    <section class="relative h-[78vh]">
-      <div class="swiper homeSwiper h-full">
-        <div class="swiper-wrapper">
-          <!-- Slide 1 -->
-          <div class="swiper-slide relative h-full">
-            <img
-              src="/images/cosmetique_1.jpg"
-              alt="Promo Bio"
-              class="w-full h-full object-cover"
-            />
-            <div
-              class="absolute inset-0 flex flex-col justify-center items-center text-white text-center bg-black bg-opacity-40"
-            >
-              <h2 class="text-4xl font-bold">La beauté au naturel</h2>
-              <p class="mt-4 text-lg">
-                Des ingrédients 100% bio et transparents.
-              </p>
-              <a
-                href="/pages/produits.html"
-                class="mt-6 bg-[#8DAA91] text-white py-2 px-6 rounded-lg text-lg transition duration-300 ease-in-out transform hover:bg-[#7A9E80] hover:scale-105"
-                >Découvrir</a
+    <main class="flex-grow">
+      <section class="relative h-[calc(100vh-128px)]">
+        <div class="swiper homeSwiper h-full">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide relative h-full">
+              <img
+                src="/images/cosmetique_1.jpg"
+                alt="Promo Bio"
+                class="w-full h-full object-cover"
+              />
+              <div
+                class="absolute inset-0 flex flex-col justify-center items-center text-white text-center bg-black bg-opacity-40"
               >
+                <h2 class="text-4xl font-bold">La beauté au naturel</h2>
+                <p class="mt-4 text-lg">
+                  Des ingrédients 100% bio et transparents.
+                </p>
+                <a
+                  href="/pages/produits.html"
+                  class="mt-6 bg-[#8DAA91] text-white py-2 px-6 rounded-lg text-lg transition duration-300 ease-in-out transform hover:bg-[#7A9E80] hover:scale-105"
+                  >Découvrir</a
+                >
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide relative h-full">
+              <img
+                src="/images/cosmetique_2.jpeg"
+                alt="Nouvelle Collection"
+                class="w-full h-full object-cover"
+              />
+              <div
+                class="absolute inset-0 flex flex-col justify-center items-center text-white text-center bg-black bg-opacity-40"
+              >
+                <h2 class="text-4xl font-bold">Nouvelle collection 2025</h2>
+                <p class="mt-4 text-lg">Des soins innovants pour votre peau.</p>
+                <a
+                  href="/pages/produits.html"
+                  class="mt-6 bg-[#8DAA91] text-white py-2 px-6 rounded-lg text-lg transition duration-300 ease-in-out transform hover:bg-[#7A9E80] hover:scale-105"
+                  >Voir les nouveautés</a
+                >
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide relative h-full">
+              <img
+                src="/images/cosmetique_3.jpg"
+                alt="Offre spéciale"
+                class="w-full h-full object-cover"
+              />
+              <div
+                class="absolute inset-0 flex flex-col justify-center items-center text-white text-center bg-black bg-opacity-40"
+              >
+                <h2 class="text-4xl font-bold">Offre spéciale</h2>
+                <p class="mt-4 text-lg">Jusqu'à -30% sur nos best-sellers !</p>
+                <a
+                  href="/pages/produits.html"
+                  class="mt-6 bg-[#8DAA91] text-white py-2 px-6 rounded-lg text-lg transition duration-300 ease-in-out transform hover:bg-[#7A9E80] hover:scale-105"
+                  >Profitez-en</a
+                >
+              </div>
             </div>
           </div>
 
-          <!-- Slide 2 -->
-          <div class="swiper-slide relative h-full">
-            <img
-              src="/images/cosmetique_2.jpeg"
-              alt="Nouvelle Collection"
-              class="w-full h-full object-cover"
-            />
-            <div
-              class="absolute inset-0 flex flex-col justify-center items-center text-white text-center bg-black bg-opacity-40"
-            >
-              <h2 class="text-4xl font-bold">Nouvelle collection 2025</h2>
-              <p class="mt-4 text-lg">Des soins innovants pour votre peau.</p>
-              <a
-                href="/pages/produits.html"
-                class="mt-6 bg-[#8DAA91] text-white py-2 px-6 rounded-lg text-lg transition duration-300 ease-in-out transform hover:bg-[#7A9E80] hover:scale-105"
-                >Voir les nouveautés</a
-              >
-            </div>
-          </div>
-
-          <!-- Slide 3 -->
-          <div class="swiper-slide relative h-full">
-            <img
-              src="/images/cosmetique_3.jpg"
-              alt="Offre spéciale"
-              class="w-full h-full object-cover"
-            />
-            <div
-              class="absolute inset-0 flex flex-col justify-center items-center text-white text-center bg-black bg-opacity-40"
-            >
-              <h2 class="text-4xl font-bold">Offre spéciale</h2>
-              <p class="mt-4 text-lg">Jusqu'à -30% sur nos best-sellers !</p>
-              <a
-                href="/pages/produits.html"
-                class="mt-6 bg-[#8DAA91] text-white py-2 px-6 rounded-lg text-lg transition duration-300 ease-in-out transform hover:bg-[#7A9E80] hover:scale-105"
-                >Profitez-en</a
-              >
-            </div>
-          </div>
+          <!-- Boutons de navigation -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
         </div>
-
-        <!-- Boutons de navigation -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <!-- Footer -->
-    <footer class="bg-[#4A6572] text-white text-center p-4 mt-auto">
+    <footer class="bg-[#4A6572] text-white text-center p-4">
       &copy; 2025 Cosmetica - Tous droits réservés
     </footer>
 

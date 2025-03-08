@@ -16,7 +16,7 @@ Qualité & Transparence : Nos fournisseurs sont rigoureusement sélectionnés po
 
 Bien-être & Efficacité : Nos cosmétiques allient plaisir sensoriel et bienfaits pour la peau.
 
-🏪 # Produits disponibles
+## 🏪 Produits disponibles
 
 Soins du visage (crèmes hydratantes, sérums, nettoyants...)
 
@@ -28,7 +28,7 @@ Soins capillaires (shampoings, après-shampoings, masques...)
 
 Produits pour homme (soins barbe, hydratation...)
 
-🚀 # Fonctionnalités de la boutique
+## 🚀 Fonctionnalités de la boutique
 
 Interface intuitive et responsive
 
@@ -40,28 +40,28 @@ Programme de fidélité et offres exclusives
 
 Livraison rapide et emballages écoresponsables
 
-🔧 # Technologies utilisées
+## 🔧 Technologies utilisées
 
-Front-end : React, Next.js
+- Front-end : React, Next.js
 
-Back-end : Node.js, Express
+- Back-end : Node.js, Express
 
-Base de données : MongoDB
+- Base de données : MongoDB
 
-Paiement : Stripe
+- Paiement : Stripe
 
-Hébergement : Vercel / AWS
+- Hébergement : Vercel / AWS
 
-📌 # Installation & Déploiement
+## 📌 Installation & Déploiement
 
-# Cloner le projet
+### Cloner le projet
 git clone https://github.com/votre-repo/boutique-cosmetiques-bio.git
 cd boutique-cosmetiques-bio
 
-# Installer les dépendances
+### Installer les dépendances
 npm install
 
-# Lancer en mode développement
+### Lancer en mode développement
 npm run dev
 
 🤝 # Contribuer

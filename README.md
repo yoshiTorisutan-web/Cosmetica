@@ -2,11 +2,11 @@
 
 Bienvenue dans notre boutique en ligne dédiée aux cosmétiques bio ! Nous proposons une large gamme de produits naturels, respectueux de votre peau et de l'environnement.
 
-🛍 Présentation
+🛍 # Présentation
 
 Notre boutique met en avant des cosmétiques bio sélectionnés avec soin pour garantir une composition saine et efficace. Nous croyons en une beauté plus responsable, sans compromis sur la qualité et le bien-être.
 
-🌱 Nos Valeurs
+🌱 # Nos Valeurs
 
 Naturel & Bio : Tous nos produits sont formulés avec des ingrédients issus de l'agriculture biologique.
 
@@ -16,7 +16,7 @@ Qualité & Transparence : Nos fournisseurs sont rigoureusement sélectionnés po
 
 Bien-être & Efficacité : Nos cosmétiques allient plaisir sensoriel et bienfaits pour la peau.
 
-🏪 Produits disponibles
+🏪 # Produits disponibles
 
 Soins du visage (crèmes hydratantes, sérums, nettoyants...)
 
@@ -28,7 +28,7 @@ Soins capillaires (shampoings, après-shampoings, masques...)
 
 Produits pour homme (soins barbe, hydratation...)
 
-🚀 Fonctionnalités de la boutique
+🚀 # Fonctionnalités de la boutique
 
 Interface intuitive et responsive
 
@@ -40,7 +40,7 @@ Programme de fidélité et offres exclusives
 
 Livraison rapide et emballages écoresponsables
 
-🔧 Technologies utilisées
+🔧 # Technologies utilisées
 
 Front-end : React, Next.js
 
@@ -52,7 +52,7 @@ Paiement : Stripe
 
 Hébergement : Vercel / AWS
 
-📌 Installation & Déploiement
+📌 # Installation & Déploiement
 
 # Cloner le projet
 git clone https://github.com/votre-repo/boutique-cosmetiques-bio.git
@@ -64,11 +64,11 @@ npm install
 # Lancer en mode développement
 npm run dev
 
-🤝 Contribuer
+🤝 # Contribuer
 
 Nous sommes ouverts aux contributions ! Si vous souhaitez améliorer la boutique, n'hésitez pas à proposer une issue ou une pull request.
 
-📩 Contact
+📩 # Contact
 
 Pour toute question, contactez-nous à contact@boutique-cosmetiques-bio.com ou via nos réseaux sociaux.
 

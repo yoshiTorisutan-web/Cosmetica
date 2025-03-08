@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nos Produits - Cosmetica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Playfair Display", serif;
+      }
+    </style>
+  </head>
+  <body class="bg-[#F8F8F8] text-gray-900 min-h-screen flex flex-col">
+    <!-- Header -->
+    <header
+      class="bg-[#8DAA91] p-4 text-white flex justify-between items-center"
+    >
+      <!-- Logo et Titre -->
+      <div class="flex items-center space-x-4 ml-12">
+        <a href="/index.html">
+          <div
+            class="w-20 h-20 bg-white rounded-full flex justify-center items-center"
+          >
+            <img src="/Logo_Cosmetica.png" alt="Logo Cosmetica" class="h-14" />
+          </div>
+        </a>
+        <h1 class="text-1xl font-bold">La beauté en transparence</h1>
+        <!-- Le titre à côté du logo -->
+      </div>
+
+      <!-- Navigation -->
+      <nav class="mr-20">
+        <ul class="flex space-x-4">
+          <li><a href="/index.html" class="hover:underline">Accueil</a></li>
+          <li>
+            <a href="/pages/produits.html" class="hover:underline">Produits</a>
+          </li>
+          <li>
+            <a href="/pages/panier.html" class="hover:underline">Panier</a>
+          </li>
+          <li>
+            <a href="/pages/inscription.html" class="hover:underline">
+              <i class="fas fa-user"></i>
+              <!-- Pictogramme de connexion -->
+            </a>
+          </li>
+          <li>
+            <a href="/pages/connexion.html" class="hover:underline">
+              <i class="fas fa-sign-in-alt"></i>
+              <!-- Pictogramme de connexion -->
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Produits -->
+    <section id="produits" class="py-12 container mx-auto">
+      <h2 class="text-3xl text-center mb-12">Nos Produits</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Produit 1 -->
+        <div
+          class="bg-white p-4 shadow rounded flex flex-col justify-between h-full"
+        >
+          <img
+            src="/images/creme_hydratante.jpg"
+            alt="Crème hydratante"
+            class="w-full h-48 object-cover rounded"
+            onclick="ajouterAuPanier('Crème hydratante', 25)"
+          />
+          <div>
+            <h3 class="text-xl mt-2">Crème hydratante</h3>
+            <p class="text-gray-700">
+              Une hydratation intense avec des ingrédients naturels.
+            </p>
+          </div>
+          <button
+            class="self-start mt-4 bg-[#A67C52] text-white py-2 px-4 rounded hover:bg-[#8a6036]"
+          >
+            Ajouter au panier
+          </button>
+        </div>
+
+        <!-- Produit 2 -->
+        <div
+          class="bg-white p-4 shadow rounded flex flex-col justify-between h-full"
+        >
+          <img
+            src="/images/shampoing.jpg"
+            alt="Shampoing réparateur"
+            class="w-full h-48 object-cover rounded"
+          />
+          <div>
+            <h3 class="text-xl mt-2">Shampoing réparateur</h3>
+            <p class="text-gray-700">
+              Pour des cheveux forts et brillants, réparé en profondeur.
+            </p>
+          </div>
+          <button
+            class="self-start mt-4 bg-[#A67C52] text-white py-2 px-4 rounded hover:bg-[#8a6036]"
+          >
+            Ajouter au panier
+          </button>
+        </div>
+
+        <!-- Produit 3 -->
+        <div
+          class="bg-white p-4 shadow rounded flex flex-col justify-between h-full"
+        >
+          <img
+            src="/images/sérum_anti_age.jpg"
+            alt="Sérum anti-âge"
+            class="w-full h-48 object-cover rounded"
+          />
+          <div>
+            <h3 class="text-xl mt-2">Sérum anti-âge</h3>
+            <p class="text-gray-700">
+              Lutte contre les signes du vieillissement, redonne de l'éclat.
+            </p>
+          </div>
+          <button
+            class="self-start mt-4 bg-[#A67C52] text-white py-2 px-4 rounded hover:bg-[#8a6036]"
+          >
+            Ajouter au panier
+          </button>
+        </div>
+
+        <!-- Produit 4 -->
+        <div
+          class="bg-white p-4 shadow rounded flex flex-col justify-between h-full"
+        >
+          <img
+            src="/images/baume_a_levre.jpg"
+            alt="Baume à lèvres"
+            class="w-full h-48 object-cover rounded"
+          />
+          <div>
+            <h3 class="text-xl mt-2">Baume à lèvres</h3>
+            <p class="text-gray-700">
+              Un soin nourrissant pour des lèvres douces et hydratées.
+            </p>
+          </div>
+          <button
+            class="self-start mt-4 bg-[#A67C52] text-white py-2 px-4 rounded hover:bg-[#8a6036]"
+          >
+            Ajouter au panier
+          </button>
+        </div>
+
+        <!-- Produit 5 -->
+        <div
+          class="bg-white p-4 shadow rounded flex flex-col justify-between h-full"
+        >
+          <img
+            src="/images/creme_solaire.jpg"
+            alt="Crème solaire SPF 50"
+            class="w-full h-48 object-cover rounded"
+          />
+          <div>
+            <h3 class="text-xl mt-2">Crème solaire SPF 50</h3>
+            <p class="text-gray-700">
+              Protégez votre peau contre les rayons UV tout en l'hydratant.
+            </p>
+          </div>
+          <button
+            class="self-start mt-4 bg-[#A67C52] text-white py-2 px-4 rounded hover:bg-[#8a6036]"
+          >
+            Ajouter au panier
+          </button>
+        </div>
+
+        <!-- Produit 6 -->
+        <div
+          class="bg-white p-4 shadow rounded flex flex-col justify-between h-full"
+        >
+          <img
+            src="/images/gel_douche_apaisant.jpg"
+            alt="Gel douche apaisant"
+            class="w-full h-48 object-cover rounded"
+          />
+          <div>
+            <h3 class="text-xl mt-2">Gel douche apaisant</h3>
+            <p class="text-gray-700">
+              Apporte fraîcheur et détente, idéal pour les peaux sensibles.
+            </p>
+          </div>
+          <button
+            class="self-start mt-4 bg-[#A67C52] text-white py-2 px-4 rounded hover:bg-[#8a6036]"
+          >
+            Ajouter au panier
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-[#4A6572] text-white text-center p-4 mt-auto">
+      &copy; 2025 Cosmetica - Tous droits réservés
+    </footer>
+  </body>
+</html>

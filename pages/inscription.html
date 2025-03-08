@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscription - Cosmetica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #f8f8f8;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Playfair Display", serif;
+      }
+      .form-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+      .form-heading {
+        color: #8daa91;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .form-label {
+        font-weight: 500;
+        margin-bottom: 8px;
+      }
+      .form-input {
+        width: 100%;
+        padding: 12px;
+        border-radius: 8px;
+        border: 1px solid #e0e0e0;
+        margin-bottom: 15px;
+        font-size: 1rem;
+      }
+      .form-button {
+        background-color: #8daa91;
+        color: white;
+        padding: 12px 20px;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        width: 100%;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      .form-button:hover {
+        background-color: #7a9e80;
+      }
+      .form-footer {
+        text-align: center;
+        margin-top: 20px;
+      }
+      .form-footer a {
+        color: #8daa91;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .form-footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header
+      class="bg-[#8DAA91] p-4 text-white flex justify-between items-center"
+    >
+      <!-- Logo et Titre -->
+      <div class="flex items-center space-x-4 ml-12">
+        <a href="/index.html">
+          <div
+            class="w-20 h-20 bg-white rounded-full flex justify-center items-center"
+          >
+            <img src="/Logo_Cosmetica.png" alt="Logo Cosmetica" class="h-14" />
+          </div>
+        </a>
+        <h1 class="text-1xl font-bold">La beauté en transparence</h1>
+        <!-- Le titre à côté du logo -->
+      </div>
+
+      <!-- Navigation -->
+      <nav class="mr-20">
+        <ul class="flex space-x-4">
+          <li><a href="/index.html" class="hover:underline">Accueil</a></li>
+          <li>
+            <a href="/pages/produits.html" class="hover:underline">Produits</a>
+          </li>
+          <li>
+            <a href="/pages/panier.html" class="hover:underline">Panier</a>
+          </li>
+          <li>
+            <a href="/pages/inscription.html" class="hover:underline">
+              <i class="fas fa-user"></i>
+              <!-- Pictogramme de connexion -->
+            </a>
+          </li>
+          <li>
+            <a href="/pages/connexion.html" class="hover:underline">
+              <i class="fas fa-sign-in-alt"></i>
+              <!-- Pictogramme de connexion -->
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Formulaire d'Inscription -->
+    <div class="form-container mt-12 mb-12">
+      <h2 class="form-heading">Créer un Compte</h2>
+      <form action="/pages/inscription.html" method="POST">
+        <!-- Prénom -->
+        <label for="first-name" class="form-label">Prénom</label>
+        <input
+          type="text"
+          id="first-name"
+          name="first-name"
+          class="form-input"
+          required
+        />
+
+        <!-- Nom -->
+        <label for="last-name" class="form-label">Nom</label>
+        <input
+          type="text"
+          id="last-name"
+          name="last-name"
+          class="form-input"
+          required
+        />
+
+        <!-- Email -->
+        <label for="email" class="form-label">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="form-input"
+          required
+        />
+
+        <!-- Mot de passe -->
+        <label for="password" class="form-label">Mot de Passe</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          class="form-input"
+          required
+        />
+
+        <!-- Confirmer le mot de passe -->
+        <label for="confirm-password" class="form-label"
+          >Confirmer le Mot de Passe</label
+        >
+        <input
+          type="password"
+          id="confirm-password"
+          name="confirm-password"
+          class="form-input"
+          required
+        />
+
+        <!-- Bouton d'inscription -->
+        <button type="submit" class="form-button">S'inscrire</button>
+      </form>
+
+      <div class="form-footer">
+        <p>
+          Vous avez déjà un compte ?
+          <a href="/pages/connexion.html">Connexion ici</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-[#4A6572] text-white text-center p-4 mt-auto">
+      &copy; 2025 Cosmetica - Tous droits réservés
+    </footer>
+  </body>
+</html>

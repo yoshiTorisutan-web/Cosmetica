@@ -1,0 +1,38 @@
+/* Pour Chrome, Safari et Edge (WebKit) */
+body {
+  overflow: auto; /* Permet de faire défiler sans afficher la scrollbar */
+}
+
+/* Masquer la scrollbar verticale */
+body::-webkit-scrollbar {
+  width: 0px; /* Masquer la barre de défilement verticale */
+  height: 0px; /* Masquer la barre de défilement horizontale */
+}
+
+/* Masquer la track (le fond de la scrollbar) */
+body::-webkit-scrollbar-track {
+  background: transparent; /* Rendre la track invisible */
+}
+
+/* Masquer la thumb (la partie glissante de la scrollbar) */
+body::-webkit-scrollbar-thumb {
+  background: transparent; /* Rendre la thumb invisible */
+}
+
+/* Flèches de navigation */
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important; /* Force la couleur en blanc */
+}
+
+/* Pagination (points) */
+.swiper-pagination-bullet {
+  background: white !important; /* Points en blanc */
+  opacity: 0.6; /* Légère transparence pour un effet doux */
+}
+
+/* Point actif */
+.swiper-pagination-bullet-active {
+  background: white !important;
+  opacity: 1; /* Pleine opacité pour le point sélectionné */
+}

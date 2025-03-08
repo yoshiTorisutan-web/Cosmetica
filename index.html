@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmetica - La beauté transparente</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <head>
+      <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        rel="stylesheet"
+      />
+    </head>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Playfair Display", serif;
+      }
+    </style>
+  </head>
+  <body class="bg-[#F8F8F8] text-gray-900">
+    <!-- Header -->
+    <header
+      class="bg-[#8DAA91] p-4 text-white flex justify-between items-center"
+    >
+      <!-- Logo et Titre -->
+      <div class="flex items-center space-x-4 ml-12">
+        <a href="/index.html">
+          <div
+            class="w-20 h-20 bg-white rounded-full flex justify-center items-center"
+          >
+            <img src="/Logo_Cosmetica.png" alt="Logo Cosmetica" class="h-14" />
+          </div>
+        </a>
+        <h1 class="text-1xl font-bold">La beauté en transparence</h1>
+        <!-- Le titre à côté du logo -->
+      </div>
+
+      <!-- Navigation -->
+      <nav class="mr-20">
+        <ul class="flex space-x-4">
+          <li><a href="/index.html" class="hover:underline">Accueil</a></li>
+          <li>
+            <a href="/pages/produits.html" class="hover:underline">Produits</a>
+          </li>
+          <li>
+            <a href="/pages/panier.html" class="hover:underline">Panier</a>
+          </li>
+          <li>
+            <a href="/pages/inscription.html" class="hover:underline">
+              <i class="fas fa-user"></i>
+              <!-- Pictogramme de connexion -->
+            </a>
+          </li>
+          <li>
+            <a href="/pages/connexion.html" class="hover:underline">
+              <i class="fas fa-sign-in-alt"></i>
+              <!-- Pictogramme de connexion -->
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Carrousel Hauteur Réduite -->
+    <!-- Carrousel Hauteur Réduite -->
+    <section class="relative h-[78vh]">
+      <div class="swiper homeSwiper h-full">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide relative h-full">
+            <img
+              src="/images/cosmetique_1.jpg"
+              alt="Promo Bio"
+              class="w-full h-full object-cover"
+            />
+            <div
+              class="absolute inset-0 flex flex-col justify-center items-center text-white text-center bg-black bg-opacity-40"
+            >
+              <h2 class="text-4xl font-bold">La beauté au naturel</h2>
+              <p class="mt-4 text-lg">
+                Des ingrédients 100% bio et transparents.
+              </p>
+              <a
+                href="/pages/produits.html"
+                class="mt-6 bg-[#8DAA91] text-white py-2 px-6 rounded-lg text-lg transition duration-300 ease-in-out transform hover:bg-[#7A9E80] hover:scale-105"
+                >Découvrir</a
+              >
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide relative h-full">
+            <img
+              src="/images/cosmetique_2.jpeg"
+              alt="Nouvelle Collection"
+              class="w-full h-full object-cover"
+            />
+            <div
+              class="absolute inset-0 flex flex-col justify-center items-center text-white text-center bg-black bg-opacity-40"
+            >
+              <h2 class="text-4xl font-bold">Nouvelle collection 2025</h2>
+              <p class="mt-4 text-lg">Des soins innovants pour votre peau.</p>
+              <a
+                href="/pages/produits.html"
+                class="mt-6 bg-[#8DAA91] text-white py-2 px-6 rounded-lg text-lg transition duration-300 ease-in-out transform hover:bg-[#7A9E80] hover:scale-105"
+                >Voir les nouveautés</a
+              >
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide relative h-full">
+            <img
+              src="/images/cosmetique_3.jpg"
+              alt="Offre spéciale"
+              class="w-full h-full object-cover"
+            />
+            <div
+              class="absolute inset-0 flex flex-col justify-center items-center text-white text-center bg-black bg-opacity-40"
+            >
+              <h2 class="text-4xl font-bold">Offre spéciale</h2>
+              <p class="mt-4 text-lg">Jusqu'à -30% sur nos best-sellers !</p>
+              <a
+                href="/pages/produits.html"
+                class="mt-6 bg-[#8DAA91] text-white py-2 px-6 rounded-lg text-lg transition duration-300 ease-in-out transform hover:bg-[#7A9E80] hover:scale-105"
+                >Profitez-en</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Boutons de navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#4A6572] text-white text-center p-4 mt-auto">
+      &copy; 2025 Cosmetica - Tous droits réservés
+    </footer>
+
+    <script>
+      var swiper = new Swiper(".homeSwiper", {
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>

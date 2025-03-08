@@ -1,12 +1,12 @@
-🌿 Boutique E-commerce - Cosmétiques Bio
+# 🌿 Boutique E-commerce - Cosmétiques Bio
 
 Bienvenue dans notre boutique en ligne dédiée aux cosmétiques bio ! Nous proposons une large gamme de produits naturels, respectueux de votre peau et de l'environnement.
 
-🛍 # Présentation
+## 🛍 Présentation
 
 Notre boutique met en avant des cosmétiques bio sélectionnés avec soin pour garantir une composition saine et efficace. Nous croyons en une beauté plus responsable, sans compromis sur la qualité et le bien-être.
 
- # 🌱 Nos Valeurs
+## 🌱 Nos Valeurs
 
 Naturel & Bio : Tous nos produits sont formulés avec des ingrédients issus de l'agriculture biologique.
 

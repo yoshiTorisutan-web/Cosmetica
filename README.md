@@ -1,4 +1,9 @@
-# 🌿 Boutique E-commerce - Cosmétiques Bio
+<h1 align="center">Cosmetica</h1>
+<div align="center">
+  <img src="Logo_Cosmetica.png" alt="Logo" width="80" height="80">
+</div>
+
+# 
 
 Bienvenue dans notre boutique en ligne dédiée aux cosmétiques bio ! Nous proposons une large gamme de produits naturels, respectueux de votre peau et de l'environnement.
 
